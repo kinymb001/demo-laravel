@@ -1,0 +1,29 @@
+@media (max-width:580px) {
+    .carousel-inner-h {
+        height: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (max-width:992px) {
+    .col-lg-2.col-xl-2.col-xxl-2.menu-code,
+    .col-lg-3.col-xl-3.col-xxl-3.p-0.menu-active {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+.industry-item .industry-item__icon {
+    padding: 0 20px;
+}
+}

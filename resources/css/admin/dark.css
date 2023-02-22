@@ -1,0 +1,46 @@
+.darkmode--activated p, .darkmode--activated li {
+    color: #FFFFFF;
+}
+
+.darkmode--activated h1, .darkmode--activated h2, .darkmode--activated h3, .darkmode--activated h4 {
+    color: #2cccff;
+    width: fit-content;
+    position: relative;
+    transition: .3s;
+}
+
+.darkmode--activated h1:hover, .darkmode--activated h2:hover, .darkmode--activated h3:hover, .darkmode--activated h4:hover {
+    /*color: #0FAAFA;*/
+    cursor: pointer;
+}
+
+.darkmode--activated h2:after, .darkmode--activated h3:after, .darkmode--activated h4:after {
+    position: absolute;
+    content: "";
+    transition: .4s;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    border-radius: 10px;
+    background: #2cccff;
+}
+
+.darkmode--activated h2:hover:after, .darkmode--activated h2:hover:after, .darkmode--activated h3:hover:after, .darkmode--activated h4:hover:after {
+    width: 100%;
+    left: 0%;
+    box-shadow: 2px 2px 13px 1px #4BD2FD;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+
+.darkmode-layer {
+    background-color: #1f2028!important;
+    mix-blend-mode: hard-light!important;
+}
+
+.darkmode-toggle {
+    z-index: 100;
+}
