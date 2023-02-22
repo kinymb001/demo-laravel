@@ -1,5 +1,5 @@
 # CMS Laravel
-Đề bài yêu cầu tạo một CMS với những tính năng CRUD cơ bản Thực hiện bởi: Cao Văn Sơn
+Đề bài yêu cầu tạo một CMS với những tính năng CRUD cơ bản Thực hiện bởi: Vũ Trung Kiên
 
 
 ## Cài đặt
